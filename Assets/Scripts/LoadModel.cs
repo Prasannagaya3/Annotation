@@ -57,6 +57,8 @@ public class LoadModel : MonoBehaviour
                 MeshCollider meshCollider = childObject.gameObject.AddComponent<MeshCollider>();
 
                 meshCollider.sharedMesh = mesh;
+
+                //meshCollider.convex = true;
             }
         }
     }
